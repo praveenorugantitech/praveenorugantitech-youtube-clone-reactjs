@@ -7,7 +7,7 @@ export function SideBarFooter() {
       <div className='footer-block'>
         <div>About Press Copyright</div>
         <div>Creators Advertise</div>
-        <div>Developers +MyTube</div>
+        <div>Developers +PraveenOrugantiTech</div>
         <div>Legal</div>
       </div>
       <div className='footer-block'>

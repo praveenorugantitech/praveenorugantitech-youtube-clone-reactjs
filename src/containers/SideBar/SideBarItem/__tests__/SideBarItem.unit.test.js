@@ -3,7 +3,7 @@ import {shallow} from 'enzyme';
 import {SideBarItem} from '../SideBarItem';
 
 const location = {
-  pathname: '/feed/trending',
+  pathname: '/praveenorugantitech-youtube-clone-reactjs/feed/trending',
 };
 
 describe('SideBarItem', () => {
@@ -16,7 +16,7 @@ describe('SideBarItem', () => {
 
   test('Renders highlighted SideBarItem', () => {
     const wrapper = shallow(
-      <SideBarItem highlighted icon='fire' label='Trending' location={location} path={'/feed/trending'}/>
+      <SideBarItem highlighted icon='fire' label='Trending' location={location} path={'/praveenorugantitech-youtube-clone-reactjs/feed/trending'}/>
     );
     expect(wrapper).toMatchSnapshot();
   });

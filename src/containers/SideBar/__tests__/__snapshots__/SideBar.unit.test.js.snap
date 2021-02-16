@@ -11,12 +11,12 @@ exports[`SideBar renders 1`] = `
   <withRouter(SideBarItem)
     icon="home"
     label="Home"
-    path="/"
+    path="/praveenorugantitech-youtube-clone-reactjs"
   />
   <withRouter(SideBarItem)
     icon="fire"
     label="Trending"
-    path="/feed/trending"
+    path="/praveenorugantitech-youtube-clone-reactjs/feed/trending"
   />
   <withRouter(SideBarItem)
     icon="spy"

@@ -40,7 +40,7 @@ function* fetchVideoDetails(responses, shouldFetchChannelInfo) {
   if (shouldFetchChannelInfo) {
     // we have to extract the video's channel id from the video details response
     // so we can load additional channel information.
-    // this is only needed, when a user directly accesses .../watch?v=1234
+    // this is only needed, when a user directly accesses .../praveenorugantitech-youtube-clone-reactjs/watch?v=1234
     // because then we only know the video id
     const videoDetailResponse = responses.find(response => response.result.kind === VIDEO_LIST_RESPONSE);
     const videos = videoDetailResponse.result.items;

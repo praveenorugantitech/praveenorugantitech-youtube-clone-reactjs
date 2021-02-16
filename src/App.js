@@ -16,10 +16,10 @@ class App extends Component {
     return (
       <AppLayout>
         <Switch>
-          <Route path="/feed/trending" component={Trending}/>
-          <Route path="/results" render={() => <Search key={this.props.location.key}/>}/>
-          <Route path="/watch" render={() => <Watch key={this.props.location.key}/>}/>
-          <Route path="/" component={Home}/>
+          <Route path="/praveenorugantitech-youtube-clone-reactjs/feed/trending" component={Trending}/>
+          <Route path="/praveenorugantitech-youtube-clone-reactjs/results" render={() => <Search key={this.props.location.key}/>}/>
+          <Route path="/praveenorugantitech-youtube-clone-reactjs/watch" render={() => <Watch key={this.props.location.key}/>}/>
+          <Route path="/praveenorugantitech-youtube-clone-reactjs" component={Home}/>
         </Switch>
       </AppLayout>
     );

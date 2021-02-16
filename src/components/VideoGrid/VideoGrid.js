@@ -11,7 +11,7 @@ export function VideoGrid(props) {
   const gridItems = props.videos.map(video => {
     return (<VideoPreview video={video}
                           key={video.id}
-                          pathname='/watch'
+                          pathname='/praveenorugantitech-youtube-clone-reactjs/watch'
                           search={`?v=${video.id}`}/>
     );
   });

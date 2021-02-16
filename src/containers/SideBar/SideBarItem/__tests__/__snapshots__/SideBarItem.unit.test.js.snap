@@ -61,7 +61,7 @@ exports[`SideBarItem Renders highlighted SideBarItem 1`] = `
 <Link
   to={
     Object {
-      "pathname": "/feed/trending",
+      "pathname": "/praveenorugantitech-youtube-clone-reactjs/feed/trending",
     }
   }
 >

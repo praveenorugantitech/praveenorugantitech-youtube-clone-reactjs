@@ -15,7 +15,7 @@ export function RelatedVideos(props) {
   const relatedVideosPreviews = remainingVideos.map(relatedVideo => (
       <VideoPreview video={relatedVideo}
                     key={relatedVideo.id}
-                    pathname='/watch'
+                    pathname='/praveenorugantitech-youtube-clone-reactjs/watch'
                     search={`?v=${relatedVideo.id}`}
                     horizontal={true}/>
   ));

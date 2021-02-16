@@ -39,7 +39,7 @@ export class Watch extends React.Component {
   fetchWatchContent() {
     const videoId = this.getVideoId();
     if (!videoId) {
-      this.props.history.push('/');
+      this.props.history.push('/praveenorugantitech-youtube-clone-reactjs');
     }
     this.props.fetchWatchDetails(videoId, this.props.channelId);
   }
