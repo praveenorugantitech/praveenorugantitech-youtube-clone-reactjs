@@ -17,7 +17,7 @@ export class HeaderNav extends React.Component {
       <Menu borderless className='top-menu' fixed='top'>
         {/* 2 */}
         <Menu.Item header className='logo'>
-          <Link to='/'><Image src={logo} size='tiny'/></Link>
+          <Link to='/praveenorugantitech-youtube-clone-reactjs'><Image src={logo} size='tiny'/></Link>
         </Menu.Item>
         {/* 3 */}
         <Menu.Menu className='nav-container'>
